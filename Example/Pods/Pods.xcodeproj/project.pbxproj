@@ -13,8 +13,8 @@
 		4752BC4EF559C6D463E1E98F79289C2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		4F4CC38C7F38FDFDB8D74BC7E75972AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		55AB28DC89D2AD11EF471FED04B8CA31 /* NGSuperShapes-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4466C5109638FDE74BF2B4B85E3361D /* NGSuperShapes-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B6665B9237F20BD00C47B35 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6665B8237F20BD00C47B35 /* UIImageViewExtension.swift */; };
 		975445624354067C7935385B70BF2C4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		ACB35BD08094859C0B8D4F466FA8859A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8CF2C6B2B12FD8E5DD08C8A0BAD50F /* ReplaceMe.swift */; };
 		E160D377E5CDA975CAA3351CDFF9B80B /* Pods-NGSuperShapes_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 261C92D73D4DD23079F63A587986F2C0 /* Pods-NGSuperShapes_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE12C4DB3FAFBC6171BD6A883A04DC65 /* Pods-NGSuperShapes_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA54AF1FE2202A124F348A8E42B50B94 /* Pods-NGSuperShapes_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -52,23 +52,23 @@
 		5F0B502CA2316B38AE69F339BE40AF43 /* NGSuperShapes-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NGSuperShapes-Info.plist"; sourceTree = "<group>"; };
 		6201E4A26DCCB96892815EA931314697 /* NGSuperShapes-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NGSuperShapes-dummy.m"; sourceTree = "<group>"; };
 		64A2157CFBF72FBB81CD4400AEDA9239 /* Pods-NGSuperShapes_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NGSuperShapes_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6C8CF2C6B2B12FD8E5DD08C8A0BAD50F /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = NGSuperShapes/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		760EDAF9D752779C3322BF703D3E8D14 /* Pods-NGSuperShapes_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NGSuperShapes_Tests-dummy.m"; sourceTree = "<group>"; };
 		7CCFFD12D8B3C03E78518F6262FA2079 /* Pods-NGSuperShapes_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NGSuperShapes_Example.release.xcconfig"; sourceTree = "<group>"; };
-		7D72CE310EED264D60230497A9952A44 /* Pods_NGSuperShapes_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NGSuperShapes_Tests.framework; path = "Pods-NGSuperShapes_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A20B562F39C0B3DCBB5CDE51F34D2256 /* NGSuperShapes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NGSuperShapes.framework; path = NGSuperShapes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D72CE310EED264D60230497A9952A44 /* Pods_NGSuperShapes_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NGSuperShapes_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B6665B8237F20BD00C47B35 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIImageViewExtension.swift; path = NGSuperShapes/Classes/UIImageViewExtension.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A20B562F39C0B3DCBB5CDE51F34D2256 /* NGSuperShapes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NGSuperShapes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4466C5109638FDE74BF2B4B85E3361D /* NGSuperShapes-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NGSuperShapes-umbrella.h"; sourceTree = "<group>"; };
 		B729A2DB974B11B8BDD5D6A7AA0C9317 /* NGSuperShapes.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NGSuperShapes.modulemap; sourceTree = "<group>"; };
 		CA54AF1FE2202A124F348A8E42B50B94 /* Pods-NGSuperShapes_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NGSuperShapes_Tests-umbrella.h"; sourceTree = "<group>"; };
 		CB941723041CCF8C6C173A6245E546D3 /* NGSuperShapes.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NGSuperShapes.xcconfig; sourceTree = "<group>"; };
-		D17B52402DA65C8C29280DA05313D9AB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D17B52402DA65C8C29280DA05313D9AB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D4DD60533D211A8348827A4BF0868E6F /* Pods-NGSuperShapes_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NGSuperShapes_Example-frameworks.sh"; sourceTree = "<group>"; };
-		E08B8B9816D0794EFAE1D84302D24C62 /* NGSuperShapes.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NGSuperShapes.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E08B8B9816D0794EFAE1D84302D24C62 /* NGSuperShapes.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = NGSuperShapes.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E7FBE12D75ABB5795447EBC4948117DB /* NGSuperShapes-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NGSuperShapes-prefix.pch"; sourceTree = "<group>"; };
-		EC10F210ECAF6FB8CA05C2D8C1BC5956 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		EC10F210ECAF6FB8CA05C2D8C1BC5956 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		ECA4ECABF2226D968FB492BFCC2EB8A9 /* Pods-NGSuperShapes_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NGSuperShapes_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FCD886857D096BB1322D0AE1D01733D9 /* Pods_NGSuperShapes_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NGSuperShapes_Example.framework; path = "Pods-NGSuperShapes_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD886857D096BB1322D0AE1D01733D9 /* Pods_NGSuperShapes_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NGSuperShapes_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,9 +186,9 @@
 		AE517F3E8006F4221455346F4031FFEF /* NGSuperShapes */ = {
 			isa = PBXGroup;
 			children = (
-				6C8CF2C6B2B12FD8E5DD08C8A0BAD50F /* ReplaceMe.swift */,
 				7E86FFE5C88878FA498E32A491CAC429 /* Pod */,
 				996A1D6B3AEAFDFA032EE1F721718FF3 /* Support Files */,
+				8B6665B8237F20BD00C47B35 /* UIImageViewExtension.swift */,
 			);
 			name = NGSuperShapes;
 			path = ../..;
@@ -315,6 +315,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					43F2773A9375C6DE25CCDB84EDDE5710 = {
+						LastSwiftMigration = 1110;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -381,8 +386,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B6665B9237F20BD00C47B35 /* UIImageViewExtension.swift in Sources */,
 				32826066103AD473767A35CDAC3CF6D1 /* NGSuperShapes-dummy.m in Sources */,
-				ACB35BD08094859C0B8D4F466FA8859A /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +447,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CB941723041CCF8C6C173A6245E546D3 /* NGSuperShapes.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -462,6 +468,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -473,6 +480,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CB941723041CCF8C6C173A6245E546D3 /* NGSuperShapes.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -621,8 +629,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

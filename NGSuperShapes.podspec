@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'NGSuperShapes'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of NGSuperShapes.'
+  s.summary          = 'A convenience CocoaPod that extends UIImageView in Swift 4,5'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,25 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+"NGSuperShapes is a CocoaPod that extends the UIImageView class with  a convenience for rounding an image view with a specified border color and width"
                        DESC
 
-  s.homepage         = 'https://github.com/Developer/NGSuperShapes'
+  s.homepage         = 'https://github.com/nivritgupta/NGSuperShapes'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Developer' => 'gupta.nivrit@gmail.com' }
-  s.source           = { :git => 'https://github.com/Developer/NGSuperShapes.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/nivritgupta/NGSuperShapes.git', :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/NivritG'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'NGSuperShapes/Classes/**/*'
+  s.source_files = 'NGSuperShapes/Classes/*.swift'
   
   # s.resource_bundles = {
   #   'NGSuperShapes' => ['NGSuperShapes/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

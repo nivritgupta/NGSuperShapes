@@ -46,7 +46,7 @@
 		8B37743C61F4E45B52DAA0E7 /* Pods-NGSuperShapes_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NGSuperShapes_Tests.release.xcconfig"; path = "Target Support Files/Pods-NGSuperShapes_Tests/Pods-NGSuperShapes_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DAA075766AEAA857B1356148 /* Pods-NGSuperShapes_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NGSuperShapes_Example.debug.xcconfig"; path = "Target Support Files/Pods-NGSuperShapes_Example/Pods-NGSuperShapes_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DC4A31227053E9F6983A8BE4 /* Pods-NGSuperShapes_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NGSuperShapes_Example.release.xcconfig"; path = "Target Support Files/Pods-NGSuperShapes_Example/Pods-NGSuperShapes_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E2190F2082BAD3F90E074C25 /* NGSuperShapes.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NGSuperShapes.podspec; path = ../NGSuperShapes.podspec; sourceTree = "<group>"; };
+		E2190F2082BAD3F90E074C25 /* NGSuperShapes.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NGSuperShapes.podspec; path = ../NGSuperShapes.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
