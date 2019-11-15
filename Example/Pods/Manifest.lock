@@ -1,0 +1,16 @@
+PODS:
+  - NGSuperShapes (0.1.0)
+
+DEPENDENCIES:
+  - NGSuperShapes (from `../`)
+
+EXTERNAL SOURCES:
+  NGSuperShapes:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NGSuperShapes: 7943b1965b2d9e3d4a93e7af7369d1e646b052b2
+
+PODFILE CHECKSUM: 5ef250c82172d3230f8ca43d791439a4336515f6
+
+COCOAPODS: 1.8.4

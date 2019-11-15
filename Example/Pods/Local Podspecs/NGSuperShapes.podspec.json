@@ -1,0 +1,22 @@
+{
+  "name": "NGSuperShapes",
+  "version": "0.1.0",
+  "summary": "A short description of NGSuperShapes.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Developer/NGSuperShapes",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Developer": "gupta.nivrit@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Developer/NGSuperShapes.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "NGSuperShapes/Classes/**/*"
+}

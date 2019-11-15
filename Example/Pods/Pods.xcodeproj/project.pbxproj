@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32826066103AD473767A35CDAC3CF6D1 /* NGSuperShapes-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6201E4A26DCCB96892815EA931314697 /* NGSuperShapes-dummy.m */; };
+		39B690FF17FB42EA07CCD5DF6A1BF095 /* Pods-NGSuperShapes_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 760EDAF9D752779C3322BF703D3E8D14 /* Pods-NGSuperShapes_Tests-dummy.m */; };
+		466E51C10F34D5FC91B0DA0D75358570 /* Pods-NGSuperShapes_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B3AE8940DE6F517369ADA4ED86A37D /* Pods-NGSuperShapes_Example-dummy.m */; };
+		4752BC4EF559C6D463E1E98F79289C2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4F4CC38C7F38FDFDB8D74BC7E75972AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		55AB28DC89D2AD11EF471FED04B8CA31 /* NGSuperShapes-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4466C5109638FDE74BF2B4B85E3361D /* NGSuperShapes-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		975445624354067C7935385B70BF2C4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		ACB35BD08094859C0B8D4F466FA8859A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8CF2C6B2B12FD8E5DD08C8A0BAD50F /* ReplaceMe.swift */; };
+		E160D377E5CDA975CAA3351CDFF9B80B /* Pods-NGSuperShapes_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 261C92D73D4DD23079F63A587986F2C0 /* Pods-NGSuperShapes_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE12C4DB3FAFBC6171BD6A883A04DC65 /* Pods-NGSuperShapes_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA54AF1FE2202A124F348A8E42B50B94 /* Pods-NGSuperShapes_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89DA87D05828456F786FEBA317D8B5D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43F2773A9375C6DE25CCDB84EDDE5710;
+			remoteInfo = NGSuperShapes;
+		};
+		947CA32EAC6F3FC5A26338831314B3E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 206FBA6E7C35DDFED4F71EDC5AD98FD6;
+			remoteInfo = "Pods-NGSuperShapes_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00B3AE8940DE6F517369ADA4ED86A37D /* Pods-NGSuperShapes_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NGSuperShapes_Example-dummy.m"; sourceTree = "<group>"; };
+		243CB7B35C3B500B9D2FDABA177F620A /* Pods-NGSuperShapes_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NGSuperShapes_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		261C92D73D4DD23079F63A587986F2C0 /* Pods-NGSuperShapes_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NGSuperShapes_Example-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3C3475D43DD1AE7F4A135A95ADB38BDA /* Pods-NGSuperShapes_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NGSuperShapes_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		479B777EC31E1D0F3A181C5F171876F3 /* Pods-NGSuperShapes_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NGSuperShapes_Tests-Info.plist"; sourceTree = "<group>"; };
+		47E2C902CBAAE61CE95AF6309122F551 /* Pods-NGSuperShapes_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NGSuperShapes_Example.modulemap"; sourceTree = "<group>"; };
+		4A07265B8AEF00C80E8FD230045F0F16 /* Pods-NGSuperShapes_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NGSuperShapes_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4C2C6DB0E7F5997FEE7521A7402ABE8E /* Pods-NGSuperShapes_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NGSuperShapes_Example-Info.plist"; sourceTree = "<group>"; };
+		566FE84E1931D5C771B1F2CEE083F5FD /* Pods-NGSuperShapes_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NGSuperShapes_Tests.modulemap"; sourceTree = "<group>"; };
+		58F243F56C36B633703FF35535559E51 /* Pods-NGSuperShapes_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NGSuperShapes_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5C9EF784823F00EE472ADE3E90A34351 /* Pods-NGSuperShapes_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NGSuperShapes_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F0B502CA2316B38AE69F339BE40AF43 /* NGSuperShapes-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NGSuperShapes-Info.plist"; sourceTree = "<group>"; };
+		6201E4A26DCCB96892815EA931314697 /* NGSuperShapes-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NGSuperShapes-dummy.m"; sourceTree = "<group>"; };
+		64A2157CFBF72FBB81CD4400AEDA9239 /* Pods-NGSuperShapes_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NGSuperShapes_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6C8CF2C6B2B12FD8E5DD08C8A0BAD50F /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = NGSuperShapes/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		760EDAF9D752779C3322BF703D3E8D14 /* Pods-NGSuperShapes_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NGSuperShapes_Tests-dummy.m"; sourceTree = "<group>"; };
+		7CCFFD12D8B3C03E78518F6262FA2079 /* Pods-NGSuperShapes_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NGSuperShapes_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7D72CE310EED264D60230497A9952A44 /* Pods_NGSuperShapes_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NGSuperShapes_Tests.framework; path = "Pods-NGSuperShapes_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A20B562F39C0B3DCBB5CDE51F34D2256 /* NGSuperShapes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NGSuperShapes.framework; path = NGSuperShapes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4466C5109638FDE74BF2B4B85E3361D /* NGSuperShapes-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NGSuperShapes-umbrella.h"; sourceTree = "<group>"; };
+		B729A2DB974B11B8BDD5D6A7AA0C9317 /* NGSuperShapes.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NGSuperShapes.modulemap; sourceTree = "<group>"; };
+		CA54AF1FE2202A124F348A8E42B50B94 /* Pods-NGSuperShapes_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NGSuperShapes_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CB941723041CCF8C6C173A6245E546D3 /* NGSuperShapes.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NGSuperShapes.xcconfig; sourceTree = "<group>"; };
+		D17B52402DA65C8C29280DA05313D9AB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D4DD60533D211A8348827A4BF0868E6F /* Pods-NGSuperShapes_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NGSuperShapes_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E08B8B9816D0794EFAE1D84302D24C62 /* NGSuperShapes.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NGSuperShapes.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E7FBE12D75ABB5795447EBC4948117DB /* NGSuperShapes-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NGSuperShapes-prefix.pch"; sourceTree = "<group>"; };
+		EC10F210ECAF6FB8CA05C2D8C1BC5956 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		ECA4ECABF2226D968FB492BFCC2EB8A9 /* Pods-NGSuperShapes_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NGSuperShapes_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FCD886857D096BB1322D0AE1D01733D9 /* Pods_NGSuperShapes_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NGSuperShapes_Example.framework; path = "Pods-NGSuperShapes_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28849792D363F07EF2D235C584BD1D71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4752BC4EF559C6D463E1E98F79289C2B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68517AD4441C18B16F3DDC6A3951772C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F4CC38C7F38FDFDB8D74BC7E75972AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B61620699450E6CB0B3C5832B6EAE201 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				975445624354067C7935385B70BF2C4F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4315C8FF0A73DE795F5E73329CAFF7B2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE517F3E8006F4221455346F4031FFEF /* NGSuperShapes */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		45963523AF70366EBB25CC9F29709EDB /* Pods-NGSuperShapes_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				566FE84E1931D5C771B1F2CEE083F5FD /* Pods-NGSuperShapes_Tests.modulemap */,
+				ECA4ECABF2226D968FB492BFCC2EB8A9 /* Pods-NGSuperShapes_Tests-acknowledgements.markdown */,
+				3C3475D43DD1AE7F4A135A95ADB38BDA /* Pods-NGSuperShapes_Tests-acknowledgements.plist */,
+				760EDAF9D752779C3322BF703D3E8D14 /* Pods-NGSuperShapes_Tests-dummy.m */,
+				479B777EC31E1D0F3A181C5F171876F3 /* Pods-NGSuperShapes_Tests-Info.plist */,
+				CA54AF1FE2202A124F348A8E42B50B94 /* Pods-NGSuperShapes_Tests-umbrella.h */,
+				5C9EF784823F00EE472ADE3E90A34351 /* Pods-NGSuperShapes_Tests.debug.xcconfig */,
+				58F243F56C36B633703FF35535559E51 /* Pods-NGSuperShapes_Tests.release.xcconfig */,
+			);
+			name = "Pods-NGSuperShapes_Tests";
+			path = "Target Support Files/Pods-NGSuperShapes_Tests";
+			sourceTree = "<group>";
+		};
+		4742405444BD0EE2146C5EB0A77E8E44 /* Pods-NGSuperShapes_Example */ = {
+			isa = PBXGroup;
+			children = (
+				47E2C902CBAAE61CE95AF6309122F551 /* Pods-NGSuperShapes_Example.modulemap */,
+				64A2157CFBF72FBB81CD4400AEDA9239 /* Pods-NGSuperShapes_Example-acknowledgements.markdown */,
+				243CB7B35C3B500B9D2FDABA177F620A /* Pods-NGSuperShapes_Example-acknowledgements.plist */,
+				00B3AE8940DE6F517369ADA4ED86A37D /* Pods-NGSuperShapes_Example-dummy.m */,
+				D4DD60533D211A8348827A4BF0868E6F /* Pods-NGSuperShapes_Example-frameworks.sh */,
+				4C2C6DB0E7F5997FEE7521A7402ABE8E /* Pods-NGSuperShapes_Example-Info.plist */,
+				261C92D73D4DD23079F63A587986F2C0 /* Pods-NGSuperShapes_Example-umbrella.h */,
+				4A07265B8AEF00C80E8FD230045F0F16 /* Pods-NGSuperShapes_Example.debug.xcconfig */,
+				7CCFFD12D8B3C03E78518F6262FA2079 /* Pods-NGSuperShapes_Example.release.xcconfig */,
+			);
+			name = "Pods-NGSuperShapes_Example";
+			path = "Target Support Files/Pods-NGSuperShapes_Example";
+			sourceTree = "<group>";
+		};
+		4BEEEF495A0C42631517717FD6BA22F7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4742405444BD0EE2146C5EB0A77E8E44 /* Pods-NGSuperShapes_Example */,
+				45963523AF70366EBB25CC9F29709EDB /* Pods-NGSuperShapes_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5029A33CDCEDE3CD711E59E6DAD4A529 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A20B562F39C0B3DCBB5CDE51F34D2256 /* NGSuperShapes.framework */,
+				FCD886857D096BB1322D0AE1D01733D9 /* Pods_NGSuperShapes_Example.framework */,
+				7D72CE310EED264D60230497A9952A44 /* Pods_NGSuperShapes_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E86FFE5C88878FA498E32A491CAC429 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D17B52402DA65C8C29280DA05313D9AB /* LICENSE */,
+				E08B8B9816D0794EFAE1D84302D24C62 /* NGSuperShapes.podspec */,
+				EC10F210ECAF6FB8CA05C2D8C1BC5956 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		996A1D6B3AEAFDFA032EE1F721718FF3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B729A2DB974B11B8BDD5D6A7AA0C9317 /* NGSuperShapes.modulemap */,
+				CB941723041CCF8C6C173A6245E546D3 /* NGSuperShapes.xcconfig */,
+				6201E4A26DCCB96892815EA931314697 /* NGSuperShapes-dummy.m */,
+				5F0B502CA2316B38AE69F339BE40AF43 /* NGSuperShapes-Info.plist */,
+				E7FBE12D75ABB5795447EBC4948117DB /* NGSuperShapes-prefix.pch */,
+				A4466C5109638FDE74BF2B4B85E3361D /* NGSuperShapes-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NGSuperShapes";
+			sourceTree = "<group>";
+		};
+		AE517F3E8006F4221455346F4031FFEF /* NGSuperShapes */ = {
+			isa = PBXGroup;
+			children = (
+				6C8CF2C6B2B12FD8E5DD08C8A0BAD50F /* ReplaceMe.swift */,
+				7E86FFE5C88878FA498E32A491CAC429 /* Pod */,
+				996A1D6B3AEAFDFA032EE1F721718FF3 /* Support Files */,
+			);
+			name = NGSuperShapes;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				4315C8FF0A73DE795F5E73329CAFF7B2 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5029A33CDCEDE3CD711E59E6DAD4A529 /* Products */,
+				4BEEEF495A0C42631517717FD6BA22F7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		46DDEA882CA8AB18DB179A12A917F0C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E160D377E5CDA975CAA3351CDFF9B80B /* Pods-NGSuperShapes_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F7B8C3E060BDF348BE77190FED447D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE12C4DB3FAFBC6171BD6A883A04DC65 /* Pods-NGSuperShapes_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8954411C18281ACFA2B79113FEFAAEF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55AB28DC89D2AD11EF471FED04B8CA31 /* NGSuperShapes-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		206FBA6E7C35DDFED4F71EDC5AD98FD6 /* Pods-NGSuperShapes_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0851292FACD891A5AEECB0A54FE954D6 /* Build configuration list for PBXNativeTarget "Pods-NGSuperShapes_Example" */;
+			buildPhases = (
+				46DDEA882CA8AB18DB179A12A917F0C4 /* Headers */,
+				41031313F8A6C04B78208638F6445112 /* Sources */,
+				68517AD4441C18B16F3DDC6A3951772C /* Frameworks */,
+				115C6074F288A0554FF675C11FD92513 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0C188E98480E4732099AF4EB7FCDF3F /* PBXTargetDependency */,
+			);
+			name = "Pods-NGSuperShapes_Example";
+			productName = "Pods-NGSuperShapes_Example";
+			productReference = FCD886857D096BB1322D0AE1D01733D9 /* Pods_NGSuperShapes_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		43F2773A9375C6DE25CCDB84EDDE5710 /* NGSuperShapes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 109AD9413F9D977500921083F8481A62 /* Build configuration list for PBXNativeTarget "NGSuperShapes" */;
+			buildPhases = (
+				E8954411C18281ACFA2B79113FEFAAEF /* Headers */,
+				A2CB21776CCE631A1936EBD1A7125182 /* Sources */,
+				B61620699450E6CB0B3C5832B6EAE201 /* Frameworks */,
+				33AE711C35F7392532CED5212BAB5699 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NGSuperShapes;
+			productName = NGSuperShapes;
+			productReference = A20B562F39C0B3DCBB5CDE51F34D2256 /* NGSuperShapes.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ED6FD3E2CC1DC969E5BCBE633AA34D8D /* Pods-NGSuperShapes_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4785E7842FCF3D60B124164022F40A39 /* Build configuration list for PBXNativeTarget "Pods-NGSuperShapes_Tests" */;
+			buildPhases = (
+				9F7B8C3E060BDF348BE77190FED447D1 /* Headers */,
+				89270AFC3A639C161A3539832FB9A86B /* Sources */,
+				28849792D363F07EF2D235C584BD1D71 /* Frameworks */,
+				3EFCD427D383B273D01B06BF8DC12C53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AADFF00D4C2892878E784F1FEA558F96 /* PBXTargetDependency */,
+			);
+			name = "Pods-NGSuperShapes_Tests";
+			productName = "Pods-NGSuperShapes_Tests";
+			productReference = 7D72CE310EED264D60230497A9952A44 /* Pods_NGSuperShapes_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5029A33CDCEDE3CD711E59E6DAD4A529 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43F2773A9375C6DE25CCDB84EDDE5710 /* NGSuperShapes */,
+				206FBA6E7C35DDFED4F71EDC5AD98FD6 /* Pods-NGSuperShapes_Example */,
+				ED6FD3E2CC1DC969E5BCBE633AA34D8D /* Pods-NGSuperShapes_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		115C6074F288A0554FF675C11FD92513 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33AE711C35F7392532CED5212BAB5699 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EFCD427D383B273D01B06BF8DC12C53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41031313F8A6C04B78208638F6445112 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466E51C10F34D5FC91B0DA0D75358570 /* Pods-NGSuperShapes_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89270AFC3A639C161A3539832FB9A86B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39B690FF17FB42EA07CCD5DF6A1BF095 /* Pods-NGSuperShapes_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2CB21776CCE631A1936EBD1A7125182 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32826066103AD473767A35CDAC3CF6D1 /* NGSuperShapes-dummy.m in Sources */,
+				ACB35BD08094859C0B8D4F466FA8859A /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AADFF00D4C2892878E784F1FEA558F96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NGSuperShapes_Example";
+			target = 206FBA6E7C35DDFED4F71EDC5AD98FD6 /* Pods-NGSuperShapes_Example */;
+			targetProxy = 947CA32EAC6F3FC5A26338831314B3E8 /* PBXContainerItemProxy */;
+		};
+		F0C188E98480E4732099AF4EB7FCDF3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NGSuperShapes;
+			target = 43F2773A9375C6DE25CCDB84EDDE5710 /* NGSuperShapes */;
+			targetProxy = 89DA87D05828456F786FEBA317D8B5D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11704E5E06CBF12DE476DFB235628B37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CCFFD12D8B3C03E78518F6262FA2079 /* Pods-NGSuperShapes_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NGSuperShapes_Example/Pods-NGSuperShapes_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NGSuperShapes_Example/Pods-NGSuperShapes_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		176471DA6248CB1E5667232E148939D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB941723041CCF8C6C173A6245E546D3 /* NGSuperShapes.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NGSuperShapes/NGSuperShapes-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NGSuperShapes/NGSuperShapes-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NGSuperShapes/NGSuperShapes.modulemap";
+				PRODUCT_MODULE_NAME = NGSuperShapes;
+				PRODUCT_NAME = NGSuperShapes;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		397C225CAAE0D08223FEDA978BE31039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB941723041CCF8C6C173A6245E546D3 /* NGSuperShapes.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NGSuperShapes/NGSuperShapes-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NGSuperShapes/NGSuperShapes-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NGSuperShapes/NGSuperShapes.modulemap";
+				PRODUCT_MODULE_NAME = NGSuperShapes;
+				PRODUCT_NAME = NGSuperShapes;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7F604961553451DD1F2D1E5C5F61E314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C9EF784823F00EE472ADE3E90A34351 /* Pods-NGSuperShapes_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NGSuperShapes_Tests/Pods-NGSuperShapes_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NGSuperShapes_Tests/Pods-NGSuperShapes_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B8E4C64C2A3841865E3A89058F1487C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58F243F56C36B633703FF35535559E51 /* Pods-NGSuperShapes_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NGSuperShapes_Tests/Pods-NGSuperShapes_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NGSuperShapes_Tests/Pods-NGSuperShapes_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F34A01F6422EB015BD253DBEFD5960FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A07265B8AEF00C80E8FD230045F0F16 /* Pods-NGSuperShapes_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NGSuperShapes_Example/Pods-NGSuperShapes_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NGSuperShapes_Example/Pods-NGSuperShapes_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0851292FACD891A5AEECB0A54FE954D6 /* Build configuration list for PBXNativeTarget "Pods-NGSuperShapes_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F34A01F6422EB015BD253DBEFD5960FE /* Debug */,
+				11704E5E06CBF12DE476DFB235628B37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		109AD9413F9D977500921083F8481A62 /* Build configuration list for PBXNativeTarget "NGSuperShapes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				176471DA6248CB1E5667232E148939D9 /* Debug */,
+				397C225CAAE0D08223FEDA978BE31039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4785E7842FCF3D60B124164022F40A39 /* Build configuration list for PBXNativeTarget "Pods-NGSuperShapes_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F604961553451DD1F2D1E5C5F61E314 /* Debug */,
+				8B8E4C64C2A3841865E3A89058F1487C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
