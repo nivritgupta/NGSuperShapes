@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NGSuperShapes_Example' do
+  pod 'NGSuperShapes', :path => '../'
+
+  target 'NGSuperShapes_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
